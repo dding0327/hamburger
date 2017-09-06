@@ -1,0 +1,414 @@
+body{
+    background: url("../images/home/bg.png") repeat;
+    color: #fff;
+    /*全部切图还是切一个片段即可*/
+}
+a{
+    color: #4c1407;
+}
+.container{
+    width: 960px;
+    margin:  0 auto;
+}
+.header{
+    height: 70px;
+    padding-top: 135px;
+}
+.header .nav{
+    height: 52px;
+    border-top: 8px solid #822619;
+    border-bottom: 8px solid #822619;
+}
+.header .nav .nav-content{
+    margin:3px 0;
+    background: url("../images/home/nav-gege.png");
+}
+.header .nav .nav-content .nav-box{
+    position: relative;
+}
+.header .nav .nav-content .nav-box .logo img{
+    position: absolute;
+}
+.header .nav .nav-content .nav-box .logo img.logo{
+    top: -115px;
+}
+.header .nav .nav-content .nav-box .logo img.girl{
+    right: 0;
+    bottom: -12px;
+}
+.header .nav .nav-content .nav-box  ul{
+    height: 46px;
+}
+.header .nav .nav-content .nav-box ul li{
+    float: left;
+    margin-right: 46px;
+}
+.header .nav .nav-content .nav-box ul li a{
+    text-decoration: none;
+    font-size:20px;
+    line-height: 46px;
+    color: #94c4c7;
+}
+.header .nav .nav-content .nav-box ul li.curr a{
+    color: #e1e2d1;
+}
+
+
+/**************头部结束*************************/
+/**********************底部开始*****************/
+.footer{
+    border-top:8px solid #822619;
+    padding-top:3px;
+}
+.footer .footer-content{
+    height: 155px;
+    padding-top:22px;
+    color: #ebe9d7;
+    background: #1b6568;
+}
+.footer .footer-content ul li{
+    width: 320px;
+    float: left;
+}
+.footer .footer-content ul li.part1{
+    line-height: 36px;
+     font-size: 26px;
+ }
+.footer .footer-content ul li.part1 i{
+    margin-top: 20px;
+    display: inline-block;
+    width: 41px;
+    height: 40px;
+}
+.footer .footer-content ul li.part1 .f{
+    background: url("../images/home/footer-f.png");
+}
+.footer .footer-content ul li.part1 .t{
+    background: url("../images/home/footer-t.png");
+}
+.footer .footer-content ul li.part1 .g{
+    background: url("../images/home/footer-g.png");
+}
+.footer .footer-content ul li.part2,.footer .footer-content ul li.part3{
+    font-size: 14px;
+    text-align: center;
+}
+.footer .footer-content ul li.part2 img{
+    margin-bottom: 20px;
+}
+.footer .footer-content ul li.part2 .footer-nav a{
+    text-decoration: none;
+    color: #ebe9d7;
+    margin: 0 10px;
+}
+.footer .footer-content ul li.part2 p{
+    margin-top: 16px;
+}
+.footer .footer-content ul li.part3 input{
+    width: 230px;
+    height: 26px;
+    text-align: center;
+    border: 1px solid #822619;
+    border-radius: 30px;
+    margin: 12px auto;
+}
+.footer .footer-content ul li.part3 button{
+    width: 208px;
+    height: 30px;
+    border: 2px solid #ebe9d7;
+    border-radius: 4px;
+    background: #822619;
+    margin: 0 auto;
+    outline: none;
+}
+.footer .footer-content ul li.part3 button:hover{
+    /*outline: 2px solid #27cbeb;*/
+    box-shadow: 0 0 0 2px yellow;
+    /*outline: none;*/
+    /*outline-radius: 4px;*/
+}
+/***********************home开始*******************/
+.content .pics{
+    position: relative;
+    height: 580px;
+}
+.content .pics .panel{
+    position: absolute;
+}
+.content .pics .qian{
+    position: absolute;
+    top: 126px;
+    left: 64px;
+}
+.content .pics .ice-cream{
+    position: absolute;
+    left: 276px;
+}
+.content .pics .shutiao{
+    position: absolute;
+    top: 344px;
+    left: 342px;
+}
+.content .pics .hanbao{
+    position: absolute;
+    top: 246px;
+}
+.content .pics .text{
+    position: absolute;
+    top: 90px;
+    left: 510px;
+}
+.content .text{
+    padding: 26px 14px;
+}
+.content .text h3{
+    font-size: 36px;
+    color: #1b6568;
+    margin-bottom: 20px;
+}
+.content .text p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4c1407;
+}
+.content .text p a{
+    text-decoration: underline;
+    color: #4c1407;
+}
+.content .pic-list{
+    margin-bottom: 30px;
+}
+.content .pic-list ul li{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+/***********************about开始***************************/
+.content .subPage{
+    padding: 34px 0;
+}
+.content .subPage .about{
+    padding: 30px;
+    border:8px solid #822619;
+    border-radius: 8px;
+    background: #ebe9d7;
+}
+.content .subPage .green-title{
+    font-size: 36px;
+    color: #1b6568;
+    padding-bottom: 4px;
+}
+.content .subPage h5{
+    font-size: 23px;
+    color: #822619;
+    padding-top:36px;
+    padding-bottom: 40px;
+}
+.content .subPage p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4c1407;
+}
+.content .subPage p a{
+    text-decoration: underline;
+    color: #4c1407;
+}
+.content .subPage .about .details p{
+    line-height: 60px;
+}
+.content .subPage .about .details .shuoming{
+    font-size: 14px;
+}
+
+
+/**************Menu Breakfast开始**************/
+.content .left{
+    float: left;
+    width: 604px;
+    height: 984px;
+    border:8px solid #822619;
+    border-radius: 8px;
+    padding: 22px 8px;
+    background: #ebe9d7;
+}
+.content .left h2{
+    position: absolute;
+    margin-left: 20px;
+}
+.content .left img{
+    display: block;
+    margin: 0 auto;
+}
+.content .left div.list-box{
+    padding:15px 20px;
+    border-bottom: dashed 3px #822619;
+}
+.content .left div:last-child{
+    border:none;
+}
+.content .left div .list{
+    margin-right: 90px;
+}
+.content .left div .list h5{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.content .left div img{
+    float: right;
+    margin-top: 5px;
+}
+
+.content .right{
+    float: right;
+    text-align: center;
+}
+.content .right h2{
+    margin: 40px 0;
+}
+.content .right .menu-list li{
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    border-top: solid 4px #822619;
+}
+.content .right .menu-list li:last-child{
+    border-bottom: solid 4px #822619;
+}
+.content .right .menu-list li a{
+    font-size: 32px;
+    color: #822619;
+    font-weight: 600;
+    text-decoration: none;
+}
+.content .right .menu-list li.curr a{
+    color: #1b6568;
+}
+.content .right button{
+    width: 275px;
+    height: 46px;
+    margin-top: 36px;
+    font-size: 24px;
+    border: solid 4px #1b6568;
+    border-radius: 7px;
+    background: #822619;
+    color: #ebe9d7;
+}
+
+/*****************contact开始*************/
+.content .contact-left{
+    width: 574px;
+    padding: 30px;
+}
+.content .contact-left h2{
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+/*.content .contact-left p:first-child{*/
+/*margin-bottom: 40px;*/
+/*}*/
+.content .contact-left form{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4c1407;
+}
+.content .contact-left form p{
+    height: 50px;
+    line-height: 65px;
+}
+.content .contact-left form input{
+    width: 295px;
+    height: 30px;
+    border: solid 1px #822619;
+    background: #fff;
+}
+.content .contact-left form input[type=button]{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    color: #ebe9d7;
+    border: solid 3px #1b6568;
+    border-radius: 3px;
+    background: #822619;
+}
+.content .contact-left form textarea{
+    width: calc(100% - 12px);
+    height: 200px;
+    padding: 5px;
+    border: solid 1px #822619;
+    background: #fff;
+}
+.content .subPage .right{
+    width: 278px;
+    margin-top: 50px;
+}
+.content .subPage .contact-right ul li{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4c1407;
+    margin-bottom: 40px;
+}
+.content .subPage .right ul li:last-child{
+    margin-bottom: 0;
+}
+.content .subPage .right ul li h4{
+    font-size: 30px;
+    color: #1b6568;
+    padding-bottom: 9px;
+}
+
+/**********************blog开始********************/
+.content .subPage .blog-left img.icon{
+    float: left;
+}
+.content .subPage .blog-left{
+    width: 620px;
+    border: none;
+    padding:0;
+    background: none;
+}
+.content .subPage .blog-left .blog-box{
+    position: relative;
+    float: left;
+    padding: 20px 26px;
+    width: 444px;
+    margin-left: 12px;
+    margin-bottom: 50px;
+    border:8px solid #822619;
+    background: #ebe9d7;
+}
+.content .subPage .blog-left .blog-box img{
+    float: left;
+    margin-right: 12px;
+}
+.content .subPage .blog-left .blog-box h4{
+    font-size: 28px;
+    color: #391a11;
+    margin-top: 15px;
+    margin-bottom: 72px;
+}
+.content .subPage .blog-left .blog-box .ops{
+    position: relative;
+}
+.content .subPage .blog-left .blog-box .ops p{
+    font-size: 14px;
+    bottom: 0;
+}
+.content .subPage .blog-left .blog-box p.details{
+    margin-top: 8px;
+}
+.content .subPage .right .list ul li{
+    width: 272px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: dashed 1px #822619;
+}
+.content .subPage .right .list ul li a,.content .subPage .right .list ul li p{
+    font-size: 16px;
+    text-decoration: none;
+}
+.content .subPage .right .list:last-child ul li h4{
+    margin-top: 46px;
+}
